@@ -30,22 +30,10 @@
             letter-spacing: 1px;
         }
 
-        .data-box {
-            background-color: #f9f9f9;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 8px;
-            border: 1px solid #ddd;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        p {
             font-size: 18px;
             color: #555;
-        }
-
-        .data-box strong {
-            display: block;
-            font-weight: bold;
-            color: #333;
-            margin-bottom: 5px;
+            margin-bottom: 20px;
         }
 
         .back-link {
@@ -71,14 +59,8 @@
 </head>
 <body>
     <div class="container">
-        <h1>Submitted Data</h1>
-        <div class="data-box">
-            <strong>Email:</strong> ${email}
-        </div>
-        <div class="data-box">
-            <strong>Password:</strong> ${password}
-        </div>
-        <a href="index.jsp" class="back-link">Go back</a>
+        <p>${name}, you have registered successfully.</p>
+        <a href="login.jsp" class="back-link">Please, go for login</a>
     </div>
 </body>
 </html>
